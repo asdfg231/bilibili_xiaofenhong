@@ -4,7 +4,7 @@ MoveTo 100, 500
 Delay 100
 LeftClick 1
 Delay 100
-For i=1 To 199
+For i=1 To 200
 	//悬停
 	MoveTo 1576, 286
 	Delay 200
