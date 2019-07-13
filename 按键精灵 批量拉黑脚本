@@ -1,0 +1,27 @@
+//打开全部网页之后。激活的标签页为最后一页
+For i=1 To 180
+   	//激活浏览器
+    MoveTo 100, 500
+	Delay 100
+	LeftClick 1
+	Delay 100
+	//上一个页面，以转到开始空白标签页	
+	KeyDown 17, 1
+	KeyDown 16, 1
+	KeyPress 9, 1
+	KeyUp 16, 1
+	KeyUp 17, 1
+	Delay 500
+	//悬停
+	MoveTo 1576, 286
+	Delay 200
+	//拉黑
+	MoveTo 1540, 335
+	Delay 100
+	LeftClick 1
+	Delay 100
+	//确认
+	MoveTo 900,640
+	LeftClick 1
+	Delay 500
+Next
